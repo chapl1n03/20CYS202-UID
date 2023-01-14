@@ -1,0 +1,374 @@
+<html>
+<!-- Revan Nagireddy
+	ASE CYS'25 
+	UID Project -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+span{
+  color:white;
+}
+
+body{
+  background-image: url("registration_bg.jpg");
+  background-size: cover;
+  }
+
+  input{            
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+    margin-top: 30px;
+    width: 220px;
+     margin-left: -400px
+                
+            }
+
+            .submit
+            {
+                margin-left: 44px;
+                margin-top: 20px;
+            }
+            input[type=submit]
+            {
+                background-color:#A4123F;
+                border: none;
+                font-family: 'Jost', sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+
+            }
+
+            input[type=submit]:hover {
+                    background-color:#CC005F;
+                    color: white;
+                    }
+
+            .forms
+            {
+                margin-top: 50;
+                margin-left: 600px;
+            }
+            .form2
+            {
+                margin-left: 300px;
+                margin-top: -460px;
+            }
+			.form3{
+				margin-left: 300px;
+				margin-top: -185px
+				}
+            .opt
+            {
+                width: 230px;
+                height: 42px;
+                border-radius: .25rem;
+                margin-top: 30px;
+                padding: .75rem 1rem;
+                margin-left: -405px
+               
+            }
+        .button
+        {
+            width: 90px;
+            height: 40px;
+            margin-left: -80px;
+            border-radius: 5px;
+            background-color:#df0e6f;
+
+        }
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #A4123F;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #A4123F;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.div{
+    background-color: white;
+}
+
+</style>
+<style>
+.header{
+  padding: 30px 10px;
+  list-style: none;
+	}
+.header .i{
+	display: inline-block;
+	padding: 0px 30px;
+	list-style: none;
+	float: right;
+	}
+a{
+	color: inheriy;
+	text-decoration: inherit;
+	font-size: 24px;
+	color:white;
+	}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+
+<head>
+	<title> Anokha2k23 Registration</title>
+	<link rel="icon" href="C:\Users\revan\Documents\AMRITA  SUBJECTS\Sem - 3\User Interface Design\Anokha_Web\regist_favicon.png">
+</head>
+
+<body class="body">
+
+		<ul class="header" id="myHeader">
+			<li class="i" style="margin:0px 70px 0px 0px"><a href="C:\Users\revan\Documents\AMRITA  SUBJECTS\Sem - 3\User Interface Design\Anokha_Web\login.html">Login</a></li>
+			<li class="i"><a href="C:\Users\revan\Documents\AMRITA  SUBJECTS\Sem - 3\User Interface Design\Anokha_Web\reachme.html">Contact</a></li>
+			<li class="i"><a href="C:\Users\revan\Documents\AMRITA  SUBJECTS\Sem - 3\User Interface Design\Anokha_Web\gallery.html">Gallery</a></li>
+			<li class="i"><a href="C:\Users\revan\Documents\AMRITA  SUBJECTS\Sem - 3\User Interface Design\Anokha_Web\index.html">Home</a></li>
+			<li class="i"><img style="margin:-5px 580px 0px 0px" src="C:\Users\revan\Documents\AMRITA  SUBJECTS\Sem - 3\User Interface Design\Anokha_Web\amritalogo.png" width="200px"/>
+ 		</ul>
+	<!--<script>
+		window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset > sticky) {
+				header.classList.add("sticky");
+			} else {
+				header.classList.remove("sticky");
+			}
+		}
+	</script> -->
+	
+	<br><br>
+<style>
+.card {
+  margin: 30px auto;
+  width: 60%;
+  height: 2000px;
+  border-radius: 40px;
+  margin:0px 0px 0px 200px;
+  backdrop-filter: blur(80px);
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+</style>
+
+    <div class="card" style="margin: 0px 0px 0px 300px">
+    <br><p style="font-size: 30px;color:#A4123F;font-family: 'Jost', sans-serif;font-weight: bolder;margin-left: 30px; margin-top: 30px;margin-bottom: 0px; text-align:center">Registration</p>
+        <p style="font-size: 20px; color:#A4123F; margin-top: 0;margin-left: 30px;margin-bottom: 0px;font-weight: bolder;text-align:center">________</p>	
+	<br><p style="font-size:25px;color:white;font-family:'Jost', sans-serif;font-weight:bolder; margin-left: 30px; margin-top: 30px;margin-bottom: 0px;">Personal Details</p>
+	<p style="font-size: 20px; color:white; margin-top: 0;margin-left: 30px;margin-bottom: 0px;font-weight: bolder;">________</p>	
+	<div class="forms" style="margin-top:0px">
+		<form name="hello" id="hello">
+			<input type="text" name="txt" id="txt" placeholder="Enter your First name*" required><br><br>
+			
+			<input type="text" name="username" id="username" placeholder="UserName for Login*" required><br><br>
+			
+			<select class="opt" name="Gender" id="Gender" required>
+                            <option value="acad">Gender</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Not-Specified</option>
+             </select> <br><br>
+			
+			<input type="email" placeholder="Email*" name="email" id="email"  required><br><br>
+				
+			<input type="text" placeholder="City" name="city" id="city" required><br><br>
+  
+     <div class="form2">
+		<input type="text" name="lasttxt" placeholder="Enter your Last Name" required><br><br>
+		
+		<input type="password" placeholder=" Create Password*" name="pwd" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+				title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"required><br><br>
+		
+		<input type="date" id="birthday" required><br><br> 
+		
+		<input type="phone" placeholder="Mobile Number*" id="ph" name="phone" required><br><br>
+				
+		<input type="text" placeholder="State" name="state" id="state" required><br><br>
+	</div>
+	</div>
+	
+	<div style="margin:0px 0px 0px 200px">
+        <textarea rows="10" cols="68" placeholder="Enter your Complete Address"  required name="add" id="add" style="margin-top:30px"></textarea><br><br><br> 
+    </div>
+	<!-- Academic Details -->
+	<div style="margin-top:0px">
+	<br><p style="font-size:25px;color:black;font-family:'Jost', sans-serif;font-weight:bolder; margin-left: 30px; margin-top: 30px;margin-bottom: 0px;">Academic Deails</p>
+	<p style="font-size: 20px; color:white; margin-top: 0;margin-left: 30px;margin-bottom: 0px;font-weight: bolder;">________</p>	
+	<div class="forms" style="margin-top:0px">
+		<input type="text" placeholder="College Name" id="uniclg" required ><br><br>
+		
+		<input type="text" name="colname" placeholder="City" id="unicity" required><br><br>
+		
+	<div class="form3">
+		<input type="email" placeholder="University E-Mail ID" id="uniEmail" required><br><br>
+		
+		<input type="text" name="colstate" placeholder="state" required><br><br>
+	
+	</div>
+	</div>
+</div>
+<!--
+<div style="margin:0px 0px 0px 200px">
+	<p>Year of study: </p>
+	<input type="radio" id="javascript" name="gender_other" value="3rd year">
+  	<label for="javascript">4<sup>th</sup>year</label>
+	<input type="radio" id="javascript" name="gender_other" value="3rd year">
+  	<label for="javascript">3<sup>rd</sup>year</label>
+	<input type="radio" id="css" name="gender_female" value="2nd year">
+  	<label for="css">2<sup>nd</sup>year</label>
+  	<input type="radio" id="html" name="1st year" value="1st">
+  	<label for="html">1<sup>th</sup>year</label>
+	</div>  -->
+		
+<div style="margin-top:0px">
+	<br><p style="font-size:25px;color:white;font-family:'Jost', sans-serif;font-weight:bolder; margin-left: 30px; margin-top: 30px;margin-bottom: 0px;">Workshop</p>
+	<p style="font-size: 20px; color:white; margin-top: 0;margin-left: 30px;margin-bottom: 0px;font-weight: bolder;">________</p>	
+	<div class="forms" style="margin-top:0px;color:white">
+		<p><label> <input type="checkbox" name="ws" value="Cloud Computing"> Cloud Computing</label></p>
+		<p><label> <input type="checkbox" name="ws" value="Cyber Hardware">Cyber Hardware</label></p>
+		<p><label> <input type="checkbox" name="ws" value="Web3.0"> Web3.0 </label></p>
+		<p><label> <input type="checkbox" name="ws" value="Gesture Robotics">Gesture Robotics</label></p>
+
+<br><br>
+        <input type="checkbox" id="agree" name="agree" value="yes" style="width: 20px;" required>
+        <label style="font-family: 'Jost', sans-serif;margin-bottom: 0px;margin-right: 0px;font-weight: bold;">I agree to the Terms and Conditions.</label> <br><br><br>
+    </div>             
+	<div style="margin:0px 0px 0px 730px">
+<input type="submit" value="Register" onclick="demo()"><br><br><br> 	
+</div>
+</form>
+    <div style="text-align: center; color: white; margin-top: 30px">
+       <p style="font-size: 60px; color: white; margin-top: 0;">________</p>
+    </div>
+
+    <div>
+    <center>
+        <p style="color:white">© Copyright #Re1 | Designed by Revan</p>
+    </center>
+    </div>
+
+    <script>
+	function demo(){
+	var flag=0;
+	var u = document.getElementById("txt").value;
+	var u1 = document.getElementById("pwd").value;
+	var u3 = document.getElementById("ph").value;
+	var u4 = document.getElementById("email").value;
+	var u5 = document.getElementById("username").value;
+	var u6 = document.getElementById("uniclg").value;
+	var u7 = document.getElementById("uniemail").value;
+	var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+
+
+	if(u.length==0 || u1.length==0 || u3.length==0 || u4.length==0 || u5.length==0){
+		alert(" Required Input Fields are Empty");
+		flag=1;
+	}
+	
+	else{
+		if(!(u4.match(validRegex)))
+    		{
+        		alert("Invalid email address!");
+			document.getElementById("email").focus();
+			flag=1;
+    		}
+		else{
+			if(u3.length<10 || u3.length>10)
+    			{
+        			alert("Incorrect Phone Number Length");
+				document.getElementById("ph").focus();
+				flag=1;
+    			}
+			if(u6.length==0)
+			{
+        		alert("Enter your clg name");
+				flag=1;
+    		}
+            if(!(u7.match(validRegex)))
+    		{
+        		alert("Invalid college email address!");
+			document.getElementById("uniEmail").focus();
+			flag=1;
+    		}
+			if (!document.hello.ws[0].checked || !document.hello.sex[1].checked || !document.hello.ws[2].checked || !document.hello.ws[3].checked ){ 
+            alert("Please select atleast one workshop"); 
+            flag=1;
+			}
+            if (!document.hello.agree.checked){
+			alert("Agree to the terms and conditions");
+            flag=1; 
+			} 
+		}
+		
+	}
+	if(flag==0){
+		alert("Successfully Registered");
+}
+	
+
+	
+}
+    </script>
+        
+</body>
+</html>
